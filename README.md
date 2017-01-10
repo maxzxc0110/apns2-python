@@ -14,6 +14,6 @@
 * hyper
 
 ##启动
-* 守护进程启动      python createDaemon.py
-* debug模式启动     python scanUDP.py
-* scanUDP.py为监控UDP服务脚本，需另做定时任务
+* 守护进程       createDaemon.py
+* debug模式      scanUDP.py
+* scanUDP.py为监控UDP服务脚本，需另做linux定时任务
