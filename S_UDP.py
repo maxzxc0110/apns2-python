@@ -33,7 +33,6 @@ s = socket.socket(socket.AF_INET,socket.SOCK_DGRAM)
 
 s.bind((host,Lport))
 
-# 业务逻辑
 # 第一次调用，连接apns，连接成功，把连接句柄存入数组
 # 第二次调用，在数组里找句柄，如果句柄可用，复用句柄发送数据
 # 第N次调用，重复第二步，如果句柄失效，重新再连接一次，并存入数组
