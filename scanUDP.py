@@ -14,7 +14,7 @@ com = "netstat -apn|grep 0.0.0.0:9090"
 a = os.system(com)
 if(a!=0):
    writeLog("The service crashed~")
-   c = "python /yourpath/createDaemon_2.py"
+   c = "python /yourpath/createDaemon.py"
    os.system(c)
 
 
