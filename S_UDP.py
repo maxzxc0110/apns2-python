@@ -128,7 +128,7 @@ while True:
                         if data=='':
                            data = '{"reason":"sucess"}'
                            
-                    continue #这行代码你漏了，对应外层的TRY
+                    continue 
                         
                 else:
                     try:
