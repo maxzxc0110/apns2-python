@@ -21,18 +21,7 @@ def createDaemon():
     except OSError, error:
         print 'fork #2 failed: %d (%s)' % (error.errno, error.strerror)
         os._exit(1)
-    # 重定向标准IO
-    # sys.stdout.flush()
-    # sys.stderr.flush()
-    # si = file("/dev/null", 'r')
-    # so = file("/dev/null", 'a+')
-    # se = file("/dev/null", 'a+', 0)
-    # os.dup2(si.fileno(), sys.stdin.fileno())
-    # os.dup2(so.fileno(), sys.stdout.fileno())
-    # os.dup2(se.fileno(), sys.stderr.fileno())
 
-    # 在子进程中执行代码
-    # funzioneDemo() # function demo
     os.system('python /yourpath/S_UDP.py')
 
 if __name__ == '__main__': 
