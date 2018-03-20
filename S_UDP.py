@@ -1,12 +1,7 @@
 # -*- coding: utf-8 -*-
 #!/usr/bin/python
-import sys
-import json
-import socket
-import time
-import random
-import logging
-import os
+import sys,json,socket,time,random,logging,os
+
 from hyper import HTTP20Connection, tls
 def make_response(r):
     try:
