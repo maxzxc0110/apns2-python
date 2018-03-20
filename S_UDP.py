@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 #!/usr/bin/python
 import sys,json,socket,time,random,logging,os
-
 from hyper import HTTP20Connection, tls
+
 def make_response(r):
     try:
         info = r.read()
