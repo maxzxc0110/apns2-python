@@ -84,7 +84,7 @@ while True:
                     "apns-topic": topic,
                     "Content-type": "application/x-www-form-urlencoded",
                     "Accept": "text/plain",
-                    # "Connection":"Keep-Alive",
+                    "Connection":"Keep-Alive",
                     }
 
             connName = cert.replace('.pem','')
