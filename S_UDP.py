@@ -69,7 +69,6 @@ def getPayloadAndHeaders(message,sound,remark,topic):
     return payload,headers
 
 
-
 def main():
     d = {}
     Lport = 9090
